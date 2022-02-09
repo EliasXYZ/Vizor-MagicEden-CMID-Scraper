@@ -64,6 +64,8 @@ async def on_message(message):
             elif e.args[0] == "cloudflare":
                 await message.channel.send("Failed to grab ID and bypass Cloudflare. Rotate browser dictionary values and interpreter.")
         else:
-            await message.channel.send(f"{name} candy machine id: {ide}")
-
+            await message.channel.send (f"**{name}:**")
+            await message.channel.send(f"{ide}")
 client.run(TOKEN)
+
+(string.capitalize())
