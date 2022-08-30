@@ -4,7 +4,7 @@ import discord
 import re
 
 #Discord bot token here
-TOKEN = "OTM5NDEwNzM3MzgwNjIyMzk3.Yf4cbQ._FAAmdi9CHmm8MMGg-yL668qN_0"
+TOKEN = ""
 
 client = discord.Client()
 
